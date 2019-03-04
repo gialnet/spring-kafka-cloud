@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac82adac-bb5d-40f3-96ea-643a4393b270" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vivaldispring/kafka/camel/CamelReadTopic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codenotfound/kafka/SpringKafkaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivaldispring/kafka/SpringKafkaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codenotfound/kafka/consumer/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivaldispring/kafka/consumer/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codenotfound/kafka/consumer/ReceiverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivaldispring/kafka/consumer/ReceiverConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codenotfound/kafka/producer/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivaldispring/kafka/producer/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codenotfound/kafka/producer/SenderConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vivaldispring/kafka/producer/SenderConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codenotfound/kafka/SpringKafkaApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vivaldispring/kafka/SpringKafkaApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codenotfound/kafka/SpringKafkaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codenotfound/kafka/camel/CamelReadTopic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codenotfound/kafka/consumer/Receiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codenotfound/kafka/consumer/ReceiverConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codenotfound/kafka/producer/Sender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codenotfound/kafka/producer/SenderConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/codenotfound/kafka/SpringKafkaApplicationTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vivaldispring/kafka/camel/CamelReadTopic.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -242,7 +261,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551722851476" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551723364181" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../java/camelkafka" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -278,11 +297,16 @@
     </configuration>
     <configuration name="SpringKafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-kafka-hello-world" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codenotfound.kafka.SpringKafkaApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vivaldispring.kafka.SpringKafkaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.SpringKafkaApplicationTest" />
+      <item itemvalue="Spring Boot.SpringKafkaApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SpringKafkaApplicationTest" />
@@ -301,7 +325,7 @@
       <updated>1551289788288</updated>
       <workItem from="1551289792064" duration="1758000" />
       <workItem from="1551717480980" duration="2693000" />
-      <workItem from="1551720201079" duration="2626000" />
+      <workItem from="1551720201079" duration="2872000" />
     </task>
     <task id="LOCAL-00001" summary="intellij commit">
       <created>1551722714786</created>
@@ -310,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551722714786</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gitignore">
+      <created>1551723013414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551723013414</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -325,7 +356,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7077000" />
+    <option name="totallyTimeSpent" value="7323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="154" y="80" width="1593" height="1000" extended-state="0" />
@@ -367,7 +398,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intellij commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="intellij commit" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="delete folder target" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete folder target" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
@@ -448,7 +481,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vivaldispring/kafka/camel/CamelReadTopic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
