@@ -1,0 +1,12 @@
+kafka:
+  bootstrap-servers: localhost:9092
+
+logging:
+  file: logs/application-debug.log
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    org.springframework.web: ERROR
+    com.codenotfound.kafka: DEBUG
+    org.hibernate: ERROR
