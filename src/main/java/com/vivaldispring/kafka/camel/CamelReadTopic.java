@@ -8,6 +8,7 @@ public class CamelReadTopic extends RouteBuilder {
 
 
 
+    // the most simple way to connect
 
     @Override
     public void configure() throws Exception {
